@@ -10,9 +10,9 @@
         <div class="card">
             <p><font color="green"><center></center></font></p>
           <h4 class="card-title">
-            Daftar <strong>Project</strong> 
+            Daftar <strong>Produk</strong> 
             <div class="pull-right">
-              <a href="" class="btn btn-primary" style="color:#fff;">Tambah Project</a>
+              <a href="" class="btn btn-primary" style="color:#fff;">Tambah Produk</a>
             </div>
           </h4>
           <div class="card-body">
@@ -21,10 +21,10 @@
               <thead>
                 <tr>
                   <th style="width: 10px">No</th>
-                  <th>Kode Produksi</th>
+                  <th>Kode Produk</th>
                   <th>Nama Produk</th>
-                  <th>Tanggal Produksi</th>
-                  <th>Status Produksi</th>
+                  <th>Qty</th>
+                  <th>uOm</th>
                   <th style="width: 90px">Action</th>
                 </tr>
               </thead>
@@ -33,8 +33,8 @@
                   <td>1</td>
                   <td>BC 896 G</td>
                   <td>Red Mild</td>
-                  <td>09/11/2017</td>
-                  <td><b><i>Laminasi</i></b></td>
+                  <td>207</td>
+                  <td>m</td>
                   <td class="text-right table-actions">
                     <a class="table-action hover-info" href=""><i class="fs-20 ti-info"></i></a>
                     <a class="table-action hover-primary" href=""><i class="fs-20 ti-pencil"></i></a>
@@ -44,8 +44,8 @@
                   <td>2</td>
                   <td>BC 86786 G</td>
                   <td>Blue Mild</td>
-                  <td>09/12/2017</td>
-                  <td><b><i>Laminasi</i></b></td>
+                  <td>207</td>
+                  <td>m</td>
                   <td class="text-right table-actions">
                     <a class="table-action hover-info" href=""><i class="fs-20 ti-info"></i></a>
                     <a class="table-action hover-primary" href=""><i class="fs-20 ti-pencil"></i></a>
@@ -55,8 +55,8 @@
                   <td>3</td>
                   <td>BC 6666 G</td>
                   <td>Gold Mild</td>
-                  <td>09/10/2017</td>
-                  <td><b><i>Laminasi</i></b></td>
+                  <td>207</td>
+                  <td>m</td>
                   <td class="text-right table-actions">
                     <a class="table-action hover-info" href=""><i class="fs-20 ti-info"></i></a>
                     <a class="table-action hover-primary" href=""><i class="fs-20 ti-pencil"></i></a>

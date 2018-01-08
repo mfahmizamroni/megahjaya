@@ -21,7 +21,7 @@
           </a>
         </li>
 
-        <!-- Begin Master Data -->
+        <!-- Begin Master Inventory -->
         <li class="menu-item">
           <a class="menu-link" href="#">
             <span class="icon fa fa-folder-open"></span>
@@ -33,10 +33,34 @@
             <li class="menu-item">
               <a class="menu-link" href="<?= base_url() ?>inventory">
                 <span class="dot"></span>
-                <span class="title">Lihat Inventory</span>
+                <span class="title">Lihat Bahan</span>
               </a>
             </li>
+            <li class="menu-item">
+              <a class="menu-link" href="<?= base_url() ?>product">
+                <span class="dot"></span>
+                <span class="title">Lihat Produk</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <!-- End Master Inventory -->
 
+        <!-- Begin Master Production -->
+        <li class="menu-item">
+          <a class="menu-link" href="#">
+            <span class="icon fa fa-folder-open"></span>
+            <span class="title">Master Production</span>
+            <span class="arrow"></span>
+          </a>
+
+          <ul class="menu-submenu">
+            <li class="menu-item">
+              <a class="menu-link" href="<?= base_url() ?>production">
+                <span class="dot"></span>
+                <span class="title">Lihat Project</span>
+              </a>
+            </li>
           </ul>
         </li>
         <!-- End Master Data -->

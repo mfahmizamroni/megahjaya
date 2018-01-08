@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Production extends CI_Controller {
+class Product extends CI_Controller {
 
 	/**
 	 * __construct function.
@@ -30,17 +30,17 @@ class Production extends CI_Controller {
 
 			$this->load->view('header');
 			$this->load->view('navigation');
-			$this->load->view('production/viewProject');
+			$this->load->view('product/viewProduct');
 			$this->load->view('footer');
 			$this->load->view('delete');
 		}
 	}
 
-	public function addProject()
+	public function addBom()
 	{
 				$this->load->view('header');
 				$this->load->view('navigation');
-				$this->load->view('production/addProject');
+				$this->load->view('product/addBom');
 				$this->load->view('footer');
 	}
 }
